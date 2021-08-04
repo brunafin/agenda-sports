@@ -1,0 +1,32 @@
+:root {
+    --white: #FFFFFF;
+    --gray-100: #F5F5F5;
+    --gray-500: #515151;
+    --green: #00866E;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font: 16px "Poppins", Arial, sans-serif;
+    color: var(--gray-500);
+    background-color: var(--white);
+  }
+  
+  input, textarea {
+    font-family: "Poppins";
+  }
+  
+  .container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 2.5rem 1rem;
+  }
+  
+  button{
+    cursor: pointer;
+  }

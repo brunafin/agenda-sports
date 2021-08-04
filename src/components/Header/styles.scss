@@ -1,0 +1,47 @@
+header.header {
+    background: var(--white);
+    height: 4rem;
+
+    > div {
+        max-width: 1120px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 4rem;
+
+        nav {
+            ul {
+                display: flex;
+                align-items: center;
+                list-style: none;
+                gap: 20px;
+
+                li a {
+                    text-decoration: none;
+                    color: var(--gray-500);
+                }
+
+                button {
+                    width: 200px;
+                    height: 3rem;
+                    border: 0;
+                    border-radius: 2rem;
+                    background: var(--gray-100);
+                    color: var(--gray-500);
+
+                    transition: filter 0.2s;
+
+                    &:hover {
+                        filter: brightness(0.95);
+                    }
+
+                    // svg{
+                    //     color: var(--gray-500);
+                    //     margin-right: 0.5rem;
+                    // }
+                }
+            }
+        }
+    }
+}
