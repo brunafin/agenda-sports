@@ -1,4 +1,4 @@
-// import { FaGoogle } from 'react-icons/fa';
+import { SignInButton } from '../SignInButton';
 import './styles.scss';
 
 export function Header() {
@@ -8,12 +8,11 @@ export function Header() {
                 <img src="/ball.svg" alt="agenda-sports" />
                 <nav>
                     <ul>
-                        <li><a href="">Horários</a></li>
                         <li>
-                            <button type="button">
-                                {/* <FaGoogle /> */}
-                                Entrar com o google
-                            </button>
+                            <a href="#">Horários</a>
+                        </li>
+                        <li>
+                            <SignInButton />
                         </li>
                     </ul>
                 </nav>

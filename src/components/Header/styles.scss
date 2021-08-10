@@ -21,26 +21,6 @@ header.header {
                     text-decoration: none;
                     color: var(--gray-500);
                 }
-
-                button {
-                    width: 200px;
-                    height: 3rem;
-                    border: 0;
-                    border-radius: 2rem;
-                    background: var(--gray-100);
-                    color: var(--gray-500);
-
-                    transition: filter 0.2s;
-
-                    &:hover {
-                        filter: brightness(0.95);
-                    }
-
-                    // svg{
-                    //     color: var(--gray-500);
-                    //     margin-right: 0.5rem;
-                    // }
-                }
             }
         }
     }
